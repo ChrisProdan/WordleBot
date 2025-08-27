@@ -15,7 +15,7 @@ class Program
 
     while (true)
     {
-      if (Game1.TotalWords() < 6)
+      if (Game1.TotalWords() < 4)
       {
         OptimalWord = Game1.OptimalWord();
       }
